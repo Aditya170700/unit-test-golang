@@ -12,6 +12,7 @@ Selamat datang! Repository ini berisi file pembelajaran unit test di bahasa pemr
 6. **sub test**
 7. **table test**
 8. **mock (testify)**
+9. **benchmark**
 
 ## Sumber Daya Eksternal
 

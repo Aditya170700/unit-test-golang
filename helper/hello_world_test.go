@@ -8,6 +8,13 @@ import (
 	"testing"
 )
 
+// run test dari package
+// go test -v -run=NamaTest
+// go test -v
+
+// run all test dari root
+// go test -v ./...
+
 func TestMain(m *testing.M) {
 	// before
 	fmt.Println("Testing Started")
