@@ -4,11 +4,12 @@ Selamat datang! Repository ini berisi file pembelajaran unit test di bahasa pemr
 
 ## Apa yang dipelajari?
 
-[//]: # (1. **membuat modul**)
+1. **membuat unit test**
 
 ## Sumber Daya Eksternal
 
 - [Dokumentasi Resmi Go](https://golang.org/doc/) - Baca dokumentasi resmi untuk mendapatkan informasi lebih lanjut.
+- [Dokumentasi Package Testing](https://golang.org/pkg/testing) - Baca dokumentasi testing untuk mendapatkan informasi lebih lanjut.
 - [Go Playground](https://play.golang.org/) - Cobalah dan uji kode Go secara online.
 - [Udemy](https://www.udemy.com/course/pemrograman-go-lang-pemula-sampai-mahir/) - Pemrograman Go-Lang : Pemula sampai Mahir
 
