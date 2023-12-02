@@ -19,6 +19,37 @@ func TestMain(m *testing.M) {
 	fmt.Println("Testing Finished")
 }
 
+func TestHelloWorldTable(t *testing.T) {
+	payloads := []struct {
+		name     string
+		request  string
+		expected string
+	}{
+		{
+			name:     "HelloWorld(Aditya)",
+			request:  "Aditya",
+			expected: "Hello Aditya",
+		},
+		{
+			name:     "HelloWorld(Ricki)",
+			request:  "Ricki",
+			expected: "Hello Ricki",
+		},
+		{
+			name:     "HelloWorld(Julianto)",
+			request:  "Julianto",
+			expected: "Hello Julianto",
+		},
+	}
+
+	for _, payload := range payloads {
+		t.Run(payload.name, func(t *testing.T) {
+			result := HelloWorld(payload.request)
+			assert.Equal(t, payload.expected, result, "Result must be '"+result+"'")
+		})
+	}
+}
+
 func TestHelloWorldSubTest(t *testing.T) {
 	t.Run("Aditya", func(t *testing.T) {
 		result := HelloWorld("SubTestAditya")
